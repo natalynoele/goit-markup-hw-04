@@ -329,14 +329,14 @@ body {
   display: flex;
 }
 
-.member-socials-item:not(:last-child){
+.member-socials-item:not(:last-child) {
   margin-right: 10px;
 }
 
 .member-socials-links {
   width: 44px;
   height: 44px;
-  display: flex;  
+  display: flex;
   justify-content: center;
   align-items: center;
 
@@ -344,8 +344,7 @@ body {
 }
 
 .member-socials-links:hover,
-.member-socials-links:focus
- {
+.member-socials-links:focus {
   border-radius: 50%;
   color: var(--secondary-btn-color);
   background-color: var(--accent-color);
@@ -357,11 +356,10 @@ body {
 
 /* Clients */
 .clients-list {
-  display: flex;  
+  display: flex;
 }
 
-
-.clients-item:not(:last-child){
+.clients-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -369,18 +367,17 @@ body {
   width: 170px;
   height: 92px;
   display: flex;
-  
+
   justify-content: center;
   align-items: center;
 
-  color: var(--primary-socials-color);  
+  color: var(--primary-socials-color);
   border: 1px solid var(--primary-socials-color);
   border-radius: 4px;
 }
 
 .clients-link:hover,
-.clients-link:focus
- {
+.clients-link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
@@ -388,8 +385,6 @@ body {
 .icon-client {
   fill: currentColor;
 }
-
-
 
 /* Portfolio Page */
 /* portfolio-filter */
@@ -422,7 +417,8 @@ body {
 .filter-btn:hover {
   background-color: var(--accent-color);
   color: var(--secondary-title-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-btn:active {
@@ -445,11 +441,13 @@ body {
 
 .project-link {
   display: flex;
-  flex-direction: column;   
+  flex-direction: column;
 }
 
-.project-link:hover{
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.project-link:hover,
+.project-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .title-wrap {
@@ -548,7 +546,7 @@ body {
 .company-socials-link {
   width: 44px;
   height: 44px;
-  display: flex;  
+  display: flex;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -558,8 +556,7 @@ body {
 }
 
 .company-socials-link:hover,
-.company-socials-link:focus
- {
+.company-socials-link:focus {
   background-color: var(--accent-color);
 }
 
